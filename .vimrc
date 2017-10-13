@@ -2,6 +2,7 @@
 
 " Colors:
 syntax enable		" enable syntax highlighting
+colorscheme codedark
 
 " Indentation:		  each indentation level is 4 spaces
 set tabstop=4		" number of visual spaces per TAB
