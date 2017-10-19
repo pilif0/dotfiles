@@ -35,3 +35,6 @@ set foldlevelstart=10	" open files with folds open
 " move by visual line
 nnoremap j gj
 nnoremap k gk
+
+"Remove all trailing whitespace by pressing F5
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
