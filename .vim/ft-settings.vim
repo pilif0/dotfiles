@@ -32,20 +32,6 @@ augroup myFiletypes
   " Fix up some commentstrings
   au FileType cpp setlocal commentstring=//%s
 
-  " Change indentation level in some languages
-  au FileType javascript setlocal tabstop=2
-  au FileType javascript setlocal softtabstop=2
-  au FileType javascript setlocal shiftwidth=2
-  au FileType json setlocal tabstop=2
-  au FileType json setlocal softtabstop=2
-  au FileType json setlocal shiftwidth=2
-  au FileType lisp setlocal tabstop=2
-  au FileType lisp setlocal softtabstop=2
-  au FileType lisp setlocal shiftwidth=2
-  au FileType yaml setlocal tabstop=2
-  au FileType yaml setlocal softtabstop=2
-  au FileType yaml setlocal shiftwidth=2
-
   if has('##TermOpen')
     au TermOpen * setlocal nonumber
     au TermOpen * startinsert

@@ -30,9 +30,9 @@ set noshowmode                  " Don't show "-- INSERT --" in insert mode (pres
 
 " Indentation
 set expandtab       " Expand tabs into spaces
-set tabstop=4       " Default number of spaces for hard tab
-set softtabstop=4   " Default number of spaces for soft tab
-set shiftwidth=4    " Number of spaces to insert when <TAB> is pressed
+set tabstop=2       " Default number of spaces for hard tab
+set softtabstop=2   " Default number of spaces for soft tab
+set shiftwidth=2    " Number of spaces to insert when <TAB> is pressed
 set autoindent      " Carry over indent on new line
 set smarttab        " Tab to shiftwidth
 
