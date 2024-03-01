@@ -135,6 +135,9 @@ let g:ale_linters.haskell = ['hlint']
 let g:ale_linters.javascript = ['eslint']
 " CSS warnings were mostly chunderous
 let g:ale_linters.css = []
+" rust-analyzer for Rust
+" Source: https://rust-analyzer.github.io/manual.html#ale
+let g:ale_linters.rust = ['analyzer']
 
 " Be sure to never install 'prettier' globally, or you will be running
 " prettier on all JavaScript files everywhere.
