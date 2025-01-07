@@ -30,16 +30,16 @@ foreground = "0x839496"
 size = 8.0
 
 [font.bold]
-family = "Menlo for Powerline"
+family = "Hasklug Nerd Font Mono"
 
 [font.bold_italic]
-family = "Menlo for Powerline"
+family = "Hasklug Nerd Font Mono"
 
 [font.italic]
-family = "Menlo for Powerline"
+family = "Hasklug Nerd Font Mono"
 
 [font.normal]
-family = "Menlo for Powerline"
+family = "Hasklug Nerd Font Mono"
 
 [window]
 decorations = "none"
