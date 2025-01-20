@@ -1,5 +1,6 @@
 -- Make space leader
-vim.g.mapleader = '<space>'
+vim.keymap.set('n', '<space>', '<nop>', { remap = false })
+vim.g.mapleader = ' '
 
 -- Make navigrating wrapped lines behave like normal lines
 vim.keymap.set('', 'k', 'gk', { silent = true, remap = false })
